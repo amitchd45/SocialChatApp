@@ -38,6 +38,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 ActivityOptions activityOptions = ActivityOptions.makeSceneTransitionAnimation(LoginActivity.this,pairs);
                 startActivity(intent,activityOptions.toBundle());
                 break;
+
+            case R.id.tvLogin:
+
+                break;
         }
     }
 }
